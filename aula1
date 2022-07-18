@@ -1,0 +1,34 @@
+# **Lógica de programação com Python**
+
+
+# Aula 1
+
+
+
+
+
+
+
+1+1
+
+'thiago'
+
+nome = 'thiago'
+
+nome
+
+idade = 33
+
+print(f'o nome é {nome} e a idade é {idade} anos')
+
+
+# Criando minha primeira função
+
+def saudacao():
+  nome = input('Qual o seu nome?')
+  print(f'Olá {nome}')
+  idade = input('Qual a sua idade?')
+  print(f'Sua idade é {idade}')
+
+saudacao()
+

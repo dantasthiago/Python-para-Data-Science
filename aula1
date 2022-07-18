@@ -32,3 +32,22 @@ def saudacao():
 
 saudacao()
 
+
+
+
+# Função com parâmetros
+
+
+
+nome = 'Thiago'
+
+def saudacao_com_parametros(nome_da_pessoa):
+  print(f'Olá, {nome_da_pessoa}')
+
+saudacao_com_parametros(nome)
+
+nome = 'Aline'
+
+saudacao_com_parametros(nome)
+
+

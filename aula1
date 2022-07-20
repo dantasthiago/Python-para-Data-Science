@@ -162,3 +162,18 @@ notas_matematicas
 
 len(notas_matematicas)
 
+# Matplotlib
+
+import matplotlib.pyplot as plt
+
+x = list(range(1,9))
+y = notas_matematicas
+plt.plot(x,y, marker='o')
+plt.title('Notas de matemáticas')
+plt.xlabel('Provas')
+plt.ylabel('Notas')
+plt.show()
+
+
+
+

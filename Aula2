@@ -1,1 +1,100 @@
 
+!python -V
+
+import numpy as np
+
+km = np.loadtxt('carros-km.txt')
+
+km
+
+anos = np.loadtxt('carros-anos.txt', dtype=int)
+
+anos
+
+km_media = km / (2022 - anos)
+
+km_media
+
+type(km_media)
+
+# Caracterísictas Básicas da Linguagem
+
+# Adição(+)
+
+2 + 2
+
+# Subtração(-)
+
+2 - 1
+
+# Multiplicação(*)
+
+2 * 3
+
+# Divisão(/) ou (//)
+
+6/2
+
+# Exponenciação
+
+2**3
+
+# Resto da divisão(%)
+
+10%3
+
+20%2
+
+# Expressões matemáticas
+
+5*2 + 3* 2
+
+5*(2 + 3)* 2
+
+# A variável _
+No modo interativo, o último resultado impresso é atribuído à variável -> _
+
+_
+
+10 *3
+
+_ * 2
+
+# Variáveis
+
+
+
+2 ** 3 * 4
+
+Altura
+_peso
+
+nome_da_variavel
+_valor
+dia_28_11_
+
+
+
+Nome_Da_Variável 
+nome_da_variavel
+NOME_DA_VARIAVEL
+
+= (igual)
++= (mais igual)
+−= (menos igual)
+∗= (multiplicação igual)
+/= (divisão igual)
+∗∗= (exponenciação igual)
+%= (resto da divisão igual)
+//= (divisão inteira igual)
+
+ano_atual = 2019
+
+ano_atual = 2019
+ano_fabricacao = 2003
+km_total = 44410.0
+
+km_media = km_total /(ano_atual - ano_fabricacao)
+
+km_media
+

@@ -98,3 +98,6 @@ km_media = km_total /(ano_atual - ano_fabricacao)
 
 km_media
 
+
+# Conclusão
+'valor = valor + 1' é equivalente a 'valor +=1'

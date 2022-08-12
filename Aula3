@@ -1,0 +1,112 @@
+# Formatação de Strings
+
+str.format()
+
+print('Óla, {}!'.format('Rodrigo'))
+
+print('Óla, {}! Este é seu número de acesso {}'.format('Rodrigo', 32))
+
+print('Óla, {nome}! Este é seu número de acesso {numero}'.format(nome = 'Rodrigo', numero = 32))
+
+# Listas
+
+Acessorios = ['Rodas de liga', 'Travas elétricas', 'Piloto automático', 'Bancos de couro', 'Ar condicionado', 'Sensor de estacionamento', 'Sensor crepuscular', 'Sensor de chuva']
+Acessorios
+
+Carro_1 = ['Jetta Variant', 'Motor 4.0 Turbo', 2003, 44410.0, False, ['Rodas de liga', 'Travas elétricas', 'Piloto automático'], 88078.64]
+Carro_2 = ['Passat', 'Motor Diesel', 1991, 5712.0, False, ['Central multimídia', 'Teto panorâmico', 'Freios ABS'], 106161.94]
+
+Carro_1
+
+Carro_2
+
+Carros = [Carro_1, Carro_2]
+Carros
+
+# Operações com listas
+# X in A
+
+Acessorios
+
+'Ar condicionado' in Acessorios
+
+'Teto solar' in Acessorios
+
+'Teto solar' not in Acessorios
+# A + B
+
+A = ['Rodas de liga', 'Travas elétricas', 'Piloto automático', 'Bancos de couro']
+B = ['Ar condicionado', 'Sensor de estacionamento', 'Sensor crepuscular', 'Sensor de chuva']
+
+A + B# len(A)
+
+len(Acessorios)
+
+len(A)
+
+len(B)
+
+Acessorios
+
+Acessorios[0]
+
+Acessorios[1]
+
+Acessorios[-1]
+
+Acessorios[-2]
+
+Carros
+
+Carros[0]
+
+Carros[0][0]
+
+Carros[0][-2]
+
+Carros[0][-2][1]
+
+Acessorios
+
+Acessorios[2:]
+
+Acessorios[:3]
+
+Acessorios[1:3]
+
+Acessorios.sort()
+Acessorios
+
+Acessorios.append('4 x 4')
+
+Acessorios
+
+Acessorios.pop()
+
+Acessorios
+
+Acessorios.pop(3)
+
+Acessorios
+
+Acessorios_2 = Acessorios
+Acessorios_2
+
+Acessorios_2.append('4 x 4')
+
+Acessorios_2
+
+Acessorios
+
+Acessorios_2 = Acessorios.copy()
+
+Acessorios_2.pop()
+
+Acessorios_2
+
+Acessorios
+
+Acessorios_2 = Acessorios[:]
+#Acessorios_2 = Acessorios[:] == Acessorios_2 = Acessorios.copy()
+
+Acessorios_2

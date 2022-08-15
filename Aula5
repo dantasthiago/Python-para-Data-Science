@@ -1,1 +1,54 @@
 
+#Arrays Numpy
+
+import numpy
+
+numpy.arange(10)
+
+import numpy as np
+
+np.arange(10)
+
+from numpy import arange
+
+arange(10)
+
+import numpy as np
+
+km = np.array([100,2300,4987,1500])
+
+km
+
+km.dtype
+
+km = np.loadtxt(fname = 'carros-km.txt', dtype = int)
+
+km
+
+km.dtype
+
+dados = [ 
+    ['Rodas de liga', 'Travas elétricas', 'Piloto automático', 'Bancos de couro', 'Ar condicionado', 'Sensor de estacionamento', 'Sensor crepuscular', 'Sensor de chuva'],
+    ['Central multimídia', 'Teto panorâmico', 'Freios ABS', '4 X 4', 'Painel digital', 'Piloto automático', 'Bancos de couro', 'Câmera de estacionamento'],
+    ['Piloto automático', 'Controle de estabilidade', 'Sensor crepuscular', 'Freios ABS', 'Câmbio automático', 'Bancos de couro', 'Central multimídia', 'Vidros elétricos']
+]
+dados
+
+Acessorios = np.array(dados)
+
+Acessorios
+
+km.shape
+
+Acessorios.shape
+
+np_array = np.arange(1000000)
+
+py_list = list(range(1000000))
+
+np_array
+
+%time for _ in range(100): np_array *= 2
+
+%time for _ in range(100): py_list = [x * 2 for x in py_list]
+
